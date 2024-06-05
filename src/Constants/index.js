@@ -14,6 +14,7 @@ import {
     mongodb,
     git,
     f,
+    appi,
     carrent,
     jobit,
     tripguide,
@@ -37,17 +38,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
       title: "React Native Developer",
       icon: mobile,
     },
     {
+      title: "Web Developer",
+      icon: web,
+    },
+    ,
+    {
       title: "Backend Developer",
       icon: backend,
     },
+   
   ];
   
   const technologies = [
@@ -95,17 +98,29 @@ import {
   
   const experiences = [
     {
-      title: "Full-Stack Developer",
-      company_name: "Faspi Enterprises",
+      title: "React Native Developer",
+      company_name: "Appinlay Pvt ltd",
+      icon: appi,
+      iconBg: "#383E56",
+      // date: "Aug 2023 - Present",
+      points: [
+        " Developed and maintain mobile applications , UI/UX implementation, State management, Testing and debugging,Version control, Optimize app performance.",
+        "Proficient in utilizing Android Studio and Xcode for native mobile app development and deployment.",
+        "Built and launched a cross-platform mobile app, Integrated third- party APIs, Implemented responsive design,Troubleshooting and bug fixing, Cross-functional collaboration, Continuous learning.",
+      ],
+    },
+    {
+      title: "React Developer",
+      company_name: "Faspi Enterprises Pvt ltd",
       icon: f,
       iconBg: "#383E56",
-      date: "Sep 2022 - jan 2023",
+      // date: "Sep 2022 - jan 2023",
       points: [
         "Developing and maintaining web & Mobile applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
       ],
-    },
+    }
   ];
   
   

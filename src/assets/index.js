@@ -20,8 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
 import f from "./company/f.jpg";
+import appi from "./company/appi.jpg"
 
 
 import carrent from "./carrent.png";
@@ -51,6 +51,7 @@ export {
   typescript,
   threejs,
   f,
+  appi,
   carrent,
   jobit,
   tripguide,
